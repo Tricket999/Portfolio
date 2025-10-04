@@ -217,16 +217,34 @@ p {
 .social-links {
   text-align: center;
 }
-
 .social-links a {
-  margin: 0 10px;
+   margin: 0 10px;
   font-size: 1.8rem;
   color: #94a3b8;
   transition: color 0.3s ease;
+
+   
 }
 
 .social-links a:hover {
-  color: #2563eb;
+    transform: scale(1.2);
+}
+
+/* Brand colors on hover */
+.social-links a[href*="instagram"]:hover {
+    color: #E1306C; /* Instagram pink */
+}
+
+.social-links a[href*="linkedin"]:hover {
+    color: #0A66C2; /* LinkedIn blue */
+}
+
+.social-links a[href*="gmail"]:hover {
+    color: #D14836; /* Gmail red */
+}
+
+.social-links a[href*="wa.me"]:hover {
+    color: #25D366; /* WhatsApp green */
 }
 /* ===== Animations ===== */
 @keyframes fadeInUp {
@@ -331,3 +349,4 @@ p {
 }
 
 /* ===== Soc*
+
